@@ -17,10 +17,41 @@
     body {
       color: #FFC000;
     }
+    .intro {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .intro button {
+      background-color: #FFC000;
+      border: none;
+      padding: 10px 20px;
+      margin: 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .sad-face {
+      display: none;
+      font-size: 100px;
+      color: red;
+    }
+
+    .container {
+      display: none;
+    }
   </style>
 </head>
 
 <body>
+  <!-- Interactive Intro -->
+  <div class="intro">
+    <h1>Apakah anda Putri Diah Sawitri?</h1>
+    <button onclick="handleYes()">Yaa</button>
+    <button onclick="handleNo()">Naa</button>
+    <div class="sad-face">:(</div>
+  </div>
+  
   <div class="container">
     <div class="one">
       <h1 class="one">
@@ -134,9 +165,23 @@
       <p class="last-smile" data-node-name="outroSmiley">:)</p>
     </div>
   </div>
+  <audio autoplay loop>
+    <source src="hbd.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script type="application/javascript" src="script/main.js"></script>
+<script>
+  function handleYes() {
+    document.querySelector('.intro').style.display = 'none';
+    document.querySelector('.container').style.display = 'block';
+  }
+
+  function handleNo() {
+    document.querySelector('.sad-face').style.display = 'block';
+  }
+</script>
 
 </html>
