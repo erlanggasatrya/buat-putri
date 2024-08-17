@@ -1,4 +1,20 @@
 // Import the data to customize and insert them into page
+function handleYes() {
+  document.querySelector('.intro').style.display = 'none';
+  document.querySelector('.container').style.display = 'block';
+
+  // Play the birthday music
+  const audio = document.getElementById('hbd-audio');
+  audio.play();
+
+  // Start rotating background images and fetch data to customize the page
+  rotateBackgroundImages();
+}
+
+function handleNo() {
+  document.querySelector('.sad-face').style.display = 'block';
+}
+
 const fetchData = () => {
   fetch("customize.json")
     .then(data => data.json())
@@ -36,7 +52,7 @@ const rotateBackgroundImages = () => {
 };
 
 // Call the function to start rotating the background images
-rotateBackgroundImages();
+// rotateBackgroundImages();
 
 // Animation Timeline
 const animationTimeline = () => {
