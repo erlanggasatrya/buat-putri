@@ -3,10 +3,12 @@ html {
 }
 
 body {
-  margin: 0;
-  font-family: "Work Sans", sans-serif;
-  background: url('images/background.jpg') no-repeat center center fixed;
-  background-size: cover;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in-out;
 }
 
 .container {
