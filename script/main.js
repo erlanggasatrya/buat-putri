@@ -26,7 +26,7 @@ const fetchData = () => {
 
 // Background Image Rotation
 const rotateBackgroundImages = () => {
-  const images = ["img/putri1.jpg", "img/putri2.jpg", "img/putri3.jpg", "img/putri4.jpg"]; // List of local image paths
+  const images = ["img/putri1.jpeg", "img/putri2.jpeg", "img/putri3.jpeg", "img/putri4.jpeg"]; // List of local image paths
   let index = 0;
   
   setInterval(() => {
