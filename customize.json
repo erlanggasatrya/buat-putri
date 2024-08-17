@@ -1,14 +1,14 @@
 {
-  "greeting": "halo",
+  "greeting": "HI",
   "name": "Putriii",
   "greetingText": "Selamat ulang tahun yaa!!!",
   "wishText": "Semoga sehat dan sukses selalu, semua yang kamu ingin cepat tercapai",
-  "imagePath": "img/putri.png",
+  "imagePath": "img/putri.jpg",
   "text1": "Ini ceritanya ngirim chat",
   "textInChatBox": "Yeeyyyy Selamat ulang tahun yaa",
   "sendButtonLabel": "Send",
-  "text2": "Btw ini punya orang lain, soalnya sulit bikinnya",
-  "text3": "cuma ganti kata katanya hehe",
+  "text2": "Btw ini punya orang luar negeri, soalnya sulit bikinnya",
+  "text3": "cuma ngedit dikit dikit hehe",
   "text4": "oh ya mau ngasih tau",
   "text4Adjective": "sesuatu",
   "text5Entry": "Inget,",
@@ -18,6 +18,6 @@
   "bigTextPart2": "!!!",
   "wishHeading": "Happy Birthday!",
   "outroText": "Udah gitu aja",
-  "replayText": "Kalo mau nonton lagi, klik ini.",
+  "replayText": "Kalo mau nonton lagi, klik ini",
   "outroSmiley": ":)"
 }
