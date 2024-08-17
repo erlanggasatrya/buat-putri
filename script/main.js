@@ -24,6 +24,20 @@ const fetchData = () => {
     });
 };
 
+// Background Image Rotation
+const rotateBackgroundImages = () => {
+  const images = ["img/bg1.jpg", "img/bg2.jpg", "img/bg3.jpg"]; // List of local image paths
+  let index = 0;
+  
+  setInterval(() => {
+    document.body.style.backgroundImage = `url('${images[index]}')`;
+    index = (index + 1) % images.length; // Cycle through images
+  }, 2000); // Change image every 2 seconds
+};
+
+// Call the function to start rotating the background images
+rotateBackgroundImages();
+
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
