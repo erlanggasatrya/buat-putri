@@ -9,6 +9,7 @@ function handleYes() {
 
   // Start rotating background images and fetch data to customize the page
   rotateBackgroundImages();
+  fetchData();
 }
 
 function handleNo() {
@@ -333,4 +334,4 @@ const animationTimeline = () => {
 };
 
 // Run fetch and animation in sequence
-fetchData();
+// fetchData();
