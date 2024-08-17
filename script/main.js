@@ -26,13 +26,13 @@ const fetchData = () => {
 
 // Background Image Rotation
 const rotateBackgroundImages = () => {
-  const images = ["img/bg1.jpg", "img/bg2.jpg", "img/bg3.jpg"]; // List of local image paths
+  const images = ["img/bg1.jpg", "img/bg2.jpg", "img/bg3.jpg", "img/bg4.jpg"]; // List of local image paths
   let index = 0;
   
   setInterval(() => {
     document.body.style.backgroundImage = `url('${images[index]}')`;
     index = (index + 1) % images.length; // Cycle through images
-  }, 2000); // Change image every 2 seconds
+  }, 1000); // Change image every 1 seconds
 };
 
 // Call the function to start rotating the background images
