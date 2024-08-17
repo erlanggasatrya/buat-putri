@@ -32,7 +32,7 @@ const rotateBackgroundImages = () => {
   setInterval(() => {
     document.body.style.backgroundImage = `url('${images[index]}')`;
     index = (index + 1) % images.length; // Cycle through images
-  }, 1000); // Change image every 1 seconds
+  }, 2000); // Change image every 1 seconds
 };
 
 // Call the function to start rotating the background images
